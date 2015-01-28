@@ -1,0 +1,4 @@
+# For loop does not work in command line option with import statement
+# instead you have to use map functions with annoymous function
+
+python -c "import sys; map(lambda x: sys.stdout.write('%d' %x), xrange(10))"
